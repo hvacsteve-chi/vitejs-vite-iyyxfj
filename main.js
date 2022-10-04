@@ -1,10 +1,10 @@
 import './style.css';
+import '/components/faithhvaclogo.svg';
 import { setupCounter } from './counter.js';
 
 document.querySelector('#app').innerHTML = `
   <div>
-    <a href="https://faithheatingcoolig.com" target="_blank">
-      <img src="https://faithheatingcooling.com/logo.png" class="logo" alt="Faith logo" />
+    <a href="/components/faithhvaclogo.svg" target="_blank" class="logo" alt="Faith logo" />
     </a>
     <h1>Hello WindyCity!</h1>
     <div class="card">
